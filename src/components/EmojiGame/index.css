@@ -1,0 +1,19 @@
+.game_bg_container {
+  background-image: linear-gradient(to right, #6a59ff, #fbc7d4);
+  height: 100vh;
+}
+.unorder_list_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}

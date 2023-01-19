@@ -1,0 +1,70 @@
+.win-or-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 80%;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  margin: auto;
+  padding: 16px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    width: 80%;
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-or-lose-card {
+    width: 60%;
+  }
+}
+
+.win_or_loss_image {
+  height: 32vh;
+  width: 25vw;
+}
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.play_again_button {
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 15px;
+  cursor: pointer;
+}
+.head_name {
+  font-family: "Roboto";
+  font-size: 22px;
+  color: black;
+}
+.label_name {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
